@@ -1,4 +1,4 @@
-local Storm = require(path.to.StormLib)
+local Storm = loadstring(game:HttpGet("https://raw.githubusercontent.com/KaiStudio0/StormUiLib/refs/heads/main/Library.lua"))()
 -- Crea la ventana (loader aparece automáticamente)
 local win = Storm.new("Mi Aplicación Storm")
 
